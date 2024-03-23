@@ -1,0 +1,23 @@
+{
+  "name": "istesunt",
+  "version": "1.0.0",
+  "description": "Add type definitions, code completion, control flow to YAML via TypeScript",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EstelleKertzmann/istesunt.git"
+  },
+  "author": "ZaneLehner",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/js-yaml": "^3.11.1",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "js-yaml": "^3.11.0",
+    "ts-node": "^6.0.3"
+  }
+}
